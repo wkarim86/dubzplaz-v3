@@ -1,0 +1,220 @@
+body{
+
+    padding: 0px;
+    margin: auto;
+    height: auto;
+}
+
+
+@font-face{
+font-family: Montserrat-Black;
+src: url(../fonts/Montserrat-Black.otf);
+
+
+}
+
+@font-face{
+font-family: Montserrat-Bold;
+src: url(../fonts/Montserrat-Bold.otf);
+
+
+}
+
+@font-face{
+font-family:Montserrat-ExtraBold;
+src: url(../fonts/Montserrat-ExtraBold.otf);
+}
+
+@font-face{
+font-family:Montserrat-Light;
+src: url(../fonts/Montserrat-Light.otf);
+}
+
+
+@font-face{
+font-family:Montserrat-Regular;
+src: url(../fonts/Montserrat-Regular.otf);
+}
+
+
+@font-face{
+font-family:Montserrat-SemiBold;
+src: url(../fonts/Montserrat-SemiBold.otf);
+}
+
+@font-face{
+font-family:Montserrat-UltraLight;
+src: url(../fonts/Montserrat-UltraLight.otf);
+}
+
+@font-face{
+font-family:FuturaNext-Bold;
+src: url(../fonts/FuturaNext-Bold.otf);
+}
+
+@font-face{
+font-family:FuturaNext-ExtraBold;
+src: url(../fonts/FuturaNext-ExtraBold.otf);
+}
+
+
+
+
+.FaqsTobpar {
+    background: #1a1a1a;
+}
+
+.logo h3 {
+    margin-top: 26px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    float: left;
+    width: 75%;
+}
+.logo img {
+    float: left;
+    width: 21%;
+    margin-top: 12px;
+}
+.back a h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mainbgfaqs {
+    background-image: url(../img/FaQsBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+
+.Fqstext1 h1 {
+    font-size: 85px;
+    color: #fad91f;
+    font-weight: 600;
+}
+
+.Fqstext1 p {
+    color: white;
+}
+
+.faqstext2 p {
+    color: white;
+    margin-top: 82%;
+}
+
+.Fqsheadimg {
+    float: right;
+    margin-right: 110px;
+}
+
+.Fqstext1 {
+    margin-top: 20%;
+}
+
+.faqstext2 p {
+    color: white;
+    margin-top: 113%;
+}
+
+.parsmainFaqs {
+    background: #202020;
+}
+
+.FqsParas h3 {
+    color: #fad91f;
+}
+
+.FqsParas p {
+    color: white;
+    line-height: 26px;
+}
+
+.Fqsfooter {
+    background-image: url(../img/Faqsfooter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 400px;
+}
+
+.bottombar.mobile-no {
+    background: #1a1a1a;
+}
+
+.bottomleft h3 {
+    color: white;
+    font-size: 13px;
+    width: 100%;
+    float: left;
+    margin-left: 80px;
+}
+
+.bottomright ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.bottomright ul li a {
+    color: white;
+    font-size: 13px;
+}
+
+.bottomright span {
+    margin-left: 8px;
+}
+
+.bottomleft {
+    float: left;
+    width: 100%;
+    margin-top: -8px;
+}
+
+.scrollTop {
+    position: fixed;
+    right: 1%;
+    bottom: 29px;
+    background-color: #BE3F48;
+    padding: 11px;
+    opacity: 0;
+    transition: all 0.4s ease-in-out 0s;
+    opacity: 1;
+    border-radius: 50%;
+    z-index: 999999999999999999999999999999999999999999999999999;
+    height: 35px;
+    width: 32px;
+}
+
+.scrollTop a {
+    font-size: 18px;
+    color: #fff;
+}
+
+i.fa.fa-arrow-up {
+    font-size: 17px;
+    margin-top: -3px !important;
+    margin-left: -3px;
+    float: left;
+}
+
+h2.topline {
+    list-style-type: none;
+    float: left;
+    margin-right: 0px;
+    border-top: 8px solid #df235d;
+    width: 190px;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 19px;
+}
+
+
+.back a h2 {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 15px;
+}

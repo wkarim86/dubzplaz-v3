@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dubz Play</title>
+    
+    
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+   
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+
+</head>
+<body>
+  
+<div class="page">
+    
+<!-- Header -->
+    <div class="header">
+        <div class="header-container">
+            <div class="mobile-menu-button">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div class="logo">
+                    <a href="javascript:void(0)"><img src="img/logo.png" /></a>
+                - StyleCity Dubai Season 1 Support - Terms &amp; Conditions
+            </div>
+            <div class="nav hidden-mobile">
+                <div class="nav-item"></div>
+                <div class="nav-item"></div>
+                <div class="nav-item red"><a href="#">Back</a></div>
+            </div>
+            
+        </div>
+      
+    </div>
+<!-- End Header -->
+    
+<!-- Home Section -->
+       <section id="home">
+        <div class="flex-container bg-home">
+            <div class="column hidden-mobile">
+              
+            </div>
+        </div>
+    </section>
+<!-- end Home Section -->
+
+</div>    
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- stats.js -->
+<script src="js/lib/stats.js"></script>
+<script>
+// Bind click handler to menu items
+// so we can get a fancy scroll animation
+    $(document).ready(function(){
+       
+        $('.mobile-menu-button').click(function(){
+            if($(this).hasClass('active')){
+                $(this).removeClass('active');
+                $('.nav-mobile').removeClass('active');
+            }else{
+                $(this).addClass('active');
+                $('.nav-mobile').addClass('active');
+            }
+        });
+     
+        
+    });
+
+   
+    </script>
+    
+</body>
+</html>

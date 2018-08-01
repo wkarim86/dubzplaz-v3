@@ -1,0 +1,980 @@
+/**********************************************
+    
+            External Fonts 
+    
+**********************************************/
+
+@font-face{
+font-family: Montserrat-Black;
+src: url(../fonts/Montserrat-Black.otf);
+
+
+}
+
+@font-face{
+font-family: Montserrat-Bold;
+src: url(../fonts/Montserrat-Bold.otf);
+
+
+}
+
+@font-face{
+font-family:Montserrat-ExtraBold;
+src: url(../fonts/Montserrat-ExtraBold.otf);
+}
+
+@font-face{
+font-family:Montserrat-Light;
+src: url(../fonts/Montserrat-Light.otf);
+}
+
+
+@font-face{
+font-family:Montserrat-Regular;
+src: url(../fonts/Montserrat-Regular.otf);
+}
+
+
+@font-face{
+font-family:Montserrat-SemiBold;
+src: url(../fonts/Montserrat-SemiBold.otf);
+}
+
+@font-face{
+font-family:Montserrat-UltraLight;
+src: url(../fonts/Montserrat-UltraLight.otf);
+}
+
+@font-face{
+font-family:FuturaNext-Bold;
+src: url(../fonts/FuturaNext-Bold.otf);
+}
+
+@font-face{
+font-family:FuturaNext-ExtraBold;
+src: url(../fonts/FuturaNext-ExtraBold.otf);
+}
+
+
+/**********************************************
+    
+            Main Theme CSS 
+    
+**********************************************/
+
+html, body{ 
+    margin:0px;
+    padding:0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+/* Header and Navigation Styles */
+
+.header {
+    width:100%;
+    height:64px;
+    background:rgba(0,0,0,0.7);
+    display:flex;
+    position:fixed;
+    z-index: 9999;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    color:white;  
+}
+.logo img{
+    height:54px;
+}
+
+.nav{
+    display:flex;
+    flex-direction:row;
+    /*flex-grow: 0.4;*/
+    /*justify-content: space-between;*/
+    width:570px;
+    
+}
+
+.nav-item {
+    align-self: stretch;
+    text-align: center;
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 33%;
+}
+
+.nav-item a{
+    font-family:  'Montserrat-Light';
+    font-weight: 300;
+    color:#fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-item a:hover{
+    font-family:  'Montserrat-Light';
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+}
+
+.nav-item.yellow{
+    border-top: 7px solid #fad91f;
+}
+.nav-item.purple{
+    border-top: 7px solid #8a58de;
+}
+.nav-item.red{
+    border-top: 7px solid #df235d;
+}
+
+/* Containers and Box Styles */
+.header-container{
+    flex-basis:100%;
+    padding:0 10%;
+    display:flex;
+    height:64px;
+    justify-content: space-between;
+}
+
+.flex-container{    
+    height:100vh;
+    display: flex;    
+}
+.flex-container-2{    
+    height:80vh;
+    display: flex;    
+}
+
+.row{
+    flex-direction:column;
+    flex:1;
+    display:flex;
+}
+
+.column-50, .column-30, .column-20{    
+    display:flex;
+    flex-direction:row;
+    flex:1;
+}
+
+.column-50 .col{
+    display:flex;
+    flex-grow: 0;
+    flex-basis: 40%;    
+}
+
+.column-30 .col{
+    display:flex;
+    flex-grow: 1;
+    flex-basis: 33%;    
+}
+
+.column{
+    display:flex;
+    flex:1;
+    flex-direction:row;
+}
+
+.col{
+    flex-grow:1;
+}
+
+.col-1{
+    flex-grow: 1;
+    flex-basis:10%;
+}
+
+.col-2{
+    flex-grow:2;
+    flex-basis:20%;
+    
+}
+
+.col-3{
+    flex-grow:3;
+    flex-basis:30%;
+    
+}
+.col-4{
+    flex-grow:4;
+    flex-basis:40%;
+}
+.col-5{
+    flex-grow:5;
+    flex-basis:50%;
+}
+.col-6{
+    flex-grow:6;
+    flex-basis:60%;
+}
+.col-7{
+    flex-grow:7;
+    flex-basis:70%;
+}
+.col-8{
+    flex-grow:8;
+    flex-basis:80%;
+}
+.col-9{
+    flex-grow:9;
+    flex-basis:90%;
+}
+.col-10{
+    flex-grow:10;
+    flex-basis:100%;
+}
+.col-11{
+    flex-grow:11;
+}
+.col-12{
+    flex-grow:12;
+}
+
+.col-250{
+    display: flex;
+    flex-grow:1;
+    flex-basis: 50%;
+    width:250px;
+}
+
+
+.bg-home{
+    background: url('../img/mainbg.jpg') no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.bg-aboutus{
+    background: url('../img/tablemen.jpg') no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.bg-video{
+    background: url('../img/videobg.jpg') no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.bg-social{
+    background: url('../img/laddy.jpg') no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.bg-footer{
+    background: url('../img/footerbg.jpg') no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+/*
+.sarah{
+    width: calc(100vw - 57%);
+    position: absolute;
+    bottom: 0px;
+    
+}
+*/
+
+.relative{
+    position:relative;    
+}
+
+.home-content-left{
+    flex-grow:1;
+    padding-top:15%;
+}
+
+.home-content-left h2 {
+    font-family: Montserrat-UltraLight !important;
+    font-size:30px;
+    font-weight:400;
+    color:#fff;
+    margin-bottom:30px;
+    
+}
+
+.home-content-left h2 span{
+    font-weight: 600;
+    font-family: Montserrat-Bold;
+}
+
+.playstore-buttons {
+    display: flex;
+    position:absolute;
+    bottom: 11%;
+    right: 11%;
+}
+.playstore-buttons a{
+   width:260px;
+}
+
+.align-horizontal-center{ 
+    justify-content: center;
+}
+
+.align-content-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.align-content-bottom{
+    justify-content: flex-end;
+}
+
+.align-content-top{
+    justify-content: flex-start;
+}
+.align-space-between{
+    justify-content: space-between;
+}
+
+.align-space-around {
+    justify-content: space-around;
+}
+.align-content-right{
+    justify-content: flex-end
+}
+.align-content-left{
+    justify-content: flex-start;
+}
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+
+.about-us-heading{
+    position: absolute;
+    top: 43px;
+    z-index: 1;
+    margin-left: -140px;
+}
+
+.about-us-heading h2{
+    font-size: 70px;
+    font-family: FuturaNext-Bold;
+    color: #8a58de;
+    font-weight: 600;
+    margin:0px;
+    text-transform: uppercase;
+}
+
+
+.about-us-heading h3{
+    font-size: 149px;
+    font-family: FuturaNext-Bold;
+    color: #fad91f;
+    font-weight: 600;
+    margin:0px;
+    line-height: 110px;
+    text-indent: 132px;
+    text-transform: uppercase;
+}
+
+.video-heading{
+    position: absolute;
+    top:20px;
+    left:-100px;
+}
+
+
+.video-heading h2{
+    color: #249ae0;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: FuturaNext-Bold;
+    margin:0px;
+    text-transform: uppercase;
+}
+
+.video-heading h3{
+    color: #49dfd3;
+    font-size: 114px;
+    font-weight: 600;
+    font-family: FuturaNext-Bold;
+    margin:0px;
+    text-transform: uppercase;
+    line-height: 110px;
+    text-indent: 222px;
+}
+
+.contact-heading{
+    position: relative;
+    margin-left: 20%;    
+    z-index: 2;
+}
+
+.contact-heading h2{
+    font-size: 60px;
+    font-family: FuturaNext-Bold;
+    color: #df235d;
+    font-weight: 600;
+    margin:0px;
+    text-transform: uppercase;
+}
+
+
+.contact-heading h3{
+    font-size: 130px;
+    font-family: FuturaNext-Bold;
+    color: #00c5fe;
+    font-weight: 600;
+    margin:0px;
+    line-height: 110px;
+    text-indent: 132px;
+    text-transform: uppercase;
+}
+
+.watch-button{
+    position: absolute;
+    top: -40px;
+    right: 40px;
+}
+
+.click-to-play{
+    margin-left: -50px;
+    width: 130px;
+    position: absolute;
+    top: -36px;
+    right: 160px
+}
+
+
+
+.watch-button h2{
+    color: #FFF;
+    font-size: 30px;
+    margin:0px;
+    font-weight: 300;
+    
+}
+
+.watch-button h3{
+    color: #FFF;
+    font-size: 60px;
+    margin:0px;
+    font-weight: 600;
+    line-height: 50px;
+    text-indent: 66px;
+    
+}
+
+.video-player{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-icon{
+    position:absolute;
+    top:16%;
+    width:150px;
+}
+
+.table-img{    
+    z-index:2; 
+    width:100%;
+}
+
+.about-paragh{
+    width: 60%;
+    color: #fff;
+    font-size: 18px;
+    font-family: Montserrat-Light;
+    margin: 0px;    
+}
+
+.saratxt{
+    position: absolute;
+    left: -140px;
+    top: 180px;
+    z-index: 1;
+}
+
+.txt-follow{
+    font-size: 42px;
+    font-family: Montserrat-Light;
+    color: #FFF;
+    font-weight: 300;
+    margin:0px;
+    line-height: 70px;
+    text-indent: 20px;
+    text-transform: capitalize;
+    
+}
+
+.txt-sara{
+    font-family: FuturaNext-Bold;
+    font-size:208px;
+    font-weight: 800;
+    color:#e04add;
+    text-transform: uppercase;
+    margin:0px;
+    line-height: 200px;
+}
+
+.txt-instagram{
+    color: #08d791;
+    font-size: 90px;
+    font-family: FuturaNext-Bold;
+    line-height: 60px;
+    
+}
+
+.txt-click{
+    color: #FFF;
+    font-size: 30px;
+    margin: 0px;
+    font-weight: 300;
+    text-indent: 84px;
+}
+.txt-connect{
+    color:#fff;
+    font-size:45px;
+    font-weight: 600;
+    font-family:Montserrat-Bold;
+    text-indent: -80px;
+}
+
+.connect{
+    display:flex;
+    margin-left: 80px;
+    margin-top: 50px;
+    position:relative;
+    z-index: 3;
+}
+.arrow{
+    position:absolute;
+    top:10px;
+}
+
+.flex-form{
+    width: 614px;
+    z-index: 3;
+    margin-left: 20%;
+    position: relative;
+}
+.flex-form input, .flex-form textarea{
+    width: 100%;
+    height: 52px;
+    border: none;
+    background: rgb(255,255,255, 0.8);
+    text-indent: 15px;
+    font-size: 16px;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.flex-form textarea{
+    height:220px;
+    padding-top:10px; 
+    padding-right:0px;
+}
+
+.flex-form textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  text-indent: 15px;
+}
+.flex-form textarea::-moz-placeholder { /* Firefox 19+ */
+  text-indent: 15px;
+}
+.flex-form textarea:-ms-input-placeholder { /* IE 10+ */
+  text-indent: 15px;
+}
+.flex-form textarea:-moz-placeholder { /* Firefox 18- */
+  text-indent: 15px;
+}
+
+.form-control{
+    margin-bottom: 10px;   
+}
+.sendbtn{
+    background:yellow;
+    border:0px;
+    padding: 5px 20px;
+    float: right
+}
+
+.footer-lady{
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+    right:10%;
+    width:46%;
+    /*width: calc(100vw - 55%); use this with media query */
+}
+
+.footer-bar{
+    background:rgba(0, 0, 0, 0.7);
+    color:#fff;
+    position:absolute;
+    bottom:0px;
+    height:42px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    
+}
+
+.footer-bar-content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex: 1;  
+    padding:0px 10px;
+}
+
+.footer-bar ul{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+
+.footer-bar ul li{
+    display: inline-block;
+    margin-right:5px;
+    margin-left:5px;
+}
+
+.footer-bar ul li.sep{
+    margin-right:0px;
+    margin-left:0px;
+}
+.footer-bar ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+.footer-bar ul li a:hover{
+    
+}
+
+.sara{
+    position: absolute;
+    bottom: 0px;
+    height: 75vh;
+    right: 0px;
+}
+
+
+.videoboy{
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    height:80vh;
+}
+.videogirl{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    height:80vh;
+}
+
+/*
+@media (min-width:1024px) and (max-width:1279){
+    .img-01 img{
+        transform:scale(0.9);
+    }
+    
+    .playstore-buttons{ margin-bottom:50px;}
+    .home-content-left h2{font-size:20px; padding-left:20px;}
+        
+    .flex-form{ width:41%;}
+    .flex-form textarea{ height:140px; padding-top:15px;}
+    .flex-form input{height:42px;}
+    .footer-lady{bottom:0px; width:55%; right:0px;}
+    
+    .contact-heading h3{font-size:80px; line-height: 80px;}
+    .contact-heading h2{font-size:50px;}
+    
+    
+    .sara{ height:70vh; }
+    .saratxt{ top:120px;}
+    .txt-sara{font-size:158px; line-height: 158px;}
+    .txt-instagram{font-size:60px; line-height: 60px;}
+    
+    .about-us-heading h2{font-size:30px;}
+    .about-us-heading h3{font-size:129px;}
+    
+    .watch-button{right:0px;}
+    
+}
+*/
+
+
+/*
+@media (min-width:1280px) and (max-width:1440px) {
+   
+    
+    .playstore-buttons{ margin-bottom:50px;}
+    .home-content-left h2{font-size:25px;}
+    
+    .flex-form{ width:41%;}
+    .flex-form textarea{ height:140px; padding-top:15px;}
+    .flex-form input{height:42px;}
+    .footer-lady{bottom:0px; width:50%; right:1%;}
+    
+    .contact-heading h2{font-size:50px;}
+    
+    
+     Sara 
+    .sara{ height:75vh; }
+    .saratxt{ top:120px;}
+    .txt-sara{font-size:170px; line-height: 150px;}
+    .txt-instagram{font-size:70px; line-height: 40px;}
+    
+    .video-heading h2{ font-size:40px;}
+    .video-heading h3{font-size: 110px; text-indent:160px; line-height: 110px;}
+    
+    .about-paragh{ font-size:17px; width: calc(100vw - 30%); padding-left:20%}
+    .about-us-heading { position: absolute;  top: 70px;  z-index: 1;  margin-left: -140px;}
+    
+    .contact-heading{ position: relative; margin-left: 15.5%;  margin-top: 0; }
+    
+    .about-us-heading h2{font-size:55px;}
+    .about-us-heading h3{font-size:129px;}
+    
+    .watch-button{right:0px;}
+    
+}
+*/
+
+/*
+
+@media (max-width:1280px) and (max-height:900px) {
+    .img-01 img{
+        transform:scale(0.9);
+    }
+    
+    .flex-container-2{overflow: hidden; height:70vh;}
+    
+    .playstore-buttons{ margin-bottom:50px;}
+    .home-content-left h2{font-size:25px;}
+    
+    .flex-form{ width:41%;}
+    .flex-form textarea{ height:140px; padding-top:15px;}
+    .flex-form input{height:42px;}
+    .footer-lady{bottom:0px; width:50%; right:1%;}
+    
+    .contact-heading h2{font-size:50px;}
+    
+    
+   
+    .sara{ height:70vh; }
+    .saratxt{ top:120px;}
+    .txt-sara{font-size:170px; line-height: 150px;}
+    .txt-instagram{font-size:70px; line-height: 40px;}
+    
+    .video-heading h2{ font-size:40px;}
+    .video-heading h3{font-size: 110px; text-indent:160px; line-height: 110px;}
+    
+    .about-paragh{ font-size:17px; width: calc(100vw - 30%); padding-left:20%}
+    .about-us-heading { position: absolute;  top: 70px;  z-index: 1;  margin-left: -140px;}
+    
+    .contact-heading{ position: relative; margin-left: 15.5%;  margin-top: 0; }
+    
+    .about-us-heading h2{font-size:55px;}
+    .about-us-heading h3{font-size:129px;}
+    
+    .watch-button{right:0px;}
+    
+    .videogirl, .videoboy{height:70vh;}
+    .videogirl{right:-50px;}
+    
+}
+*/
+
+
+/*
+1440 x 900
+1650 x 1080   (3:2 3000 x 2000)
+*/
+  
+
+/*
+@media (min-width:1400px) and (max-width:1800px) {
+
+    
+    .flex-container-2{overflow: hidden; height:70vh;}
+    
+    .playstore-buttons{ margin-bottom:50px;}
+    .home-content-left h2{font-size:25px;}
+    
+    .flex-form{ width:36.666%; margin-left:16%;}
+    .flex-form textarea{ height:140px; padding-top:15px;}
+    .flex-form input{height:42px;}
+    .footer-lady{bottom:0px; width:57%; right:4.65%;}
+    
+    .contact-heading h2{font-size:50px;}
+    
+    
+    
+    .sara{ height:70vh; }
+    .saratxt{ top:150px; left:-160px;}
+    .txt-sara{font-size:170px; line-height: 150px;}
+    .txt-instagram{font-size:70px; line-height: 40px;}
+    
+    .video-heading h2{ font-size:40px;}
+    .video-heading h3{font-size: 110px; text-indent:160px; line-height: 110px;}
+    
+    .about-paragh{ font-size:24px; width: calc(100vw - 20%); padding-left:10%}
+    .about-us-heading { position: absolute;  top: 70px;  z-index: 1;  margin-left: -140px;}
+    
+    .contact-heading{ position: relative; margin-left: 15.5%;  margin-top: -10%; }
+    
+    .about-us-heading h2{font-size:55px;}
+    .about-us-heading h3{font-size:129px;}
+    
+    .watch-button{right:0px;}
+    
+    .videogirl, .videoboy{height:70vh;}
+    .videogirl{right:-50px;}
+    .connect{margin-left;32px;}
+}*/
+.visible-mobile{
+    display:none;
+}
+
+.nav-mobile{
+    display:  none;
+}
+
+.message-overlay.show{
+    display:block;
+}
+.message-overlay.hide{
+    display:none;
+}
+
+.message-overlay{
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.2);
+    position:fixed;
+    z-index: 999;
+    top:0px;
+}
+.message{
+    width: 30vw;
+    text-align: center;
+    padding: 2em;
+    position: absolute;    
+    top: 25%;
+    background: #fff;
+    left: 25vw;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+    border-top:5px solid #31aa53;
+}
+
+.message .fa{
+    color:#3a3a3a;
+    font-size:50px;
+}
+.message h1{
+    color:#31aa53;
+    font-size:20px;
+}
+
+.message p{
+    font-size:14px;
+    margin:20px auto;
+}
+.message .ok{
+    font-size:18px;
+    font-family: 'Montserrat-Bold';
+    color:#fff;
+    padding:0.6em 4em;
+    border-radius:20em;    
+    background-color:#31aa53;
+    box-shadow: none;
+    border:0px;    
+    cursor: pointer;
+}
+.message .ok:focus{
+    outline: none;
+}
+.message .ok:hover{
+    background-color:#42ab60;
+}
+
+
+/* resize hack */
+
+.resize{
+    width:1336px;
+}
+
+.resize .flex-container{
+    height:868px;
+}
+
+.resize .flex-container-2{
+    height:570px;
+}
+
+ .resize .video-heading h2{
+        font-size:40px;
+    }
+    
+  .resize  .video-heading h3{
+        font-size:90px;
+        line-height: 90px;
+        text-indent: 175px;
+    }
+    
+  .resize  .watch-button{
+        right:0px;
+    }
+    
+  .resize  .video-icon{
+        top:13%;
+    }
+    
+
+    
+  .resize  .saratxt{
+        top:100px;
+        left:-120px;
+    }
+    
+    
+   .resize .txt-sara{
+        font-size:190px;
+        line-height: 190px;
+        
+    }
+    
+   .resize .txt-instagram{
+        font-size:70px;
+        line-height: 10px;
+    }
+    
+   .resize .contact-heading h2{
+        font-size:40px;
+    }
+   .resize .contact-heading h3{
+        font-size:100px;
+        line-height: 90px;
+        text-indent: 100px;
+    }
+    
+  
+   .resize .videogirl, .resize .videoboy{
+        height:auto;
+    }
+    
+    .resize .footer-lady {
+        width: 54%;
+        right: 0%;
+        bottom: 0px;
+    }

@@ -1,0 +1,1696 @@
+@media (min-width:320px) and (max-width:800px){
+    .logo img{
+        height:34px;
+    }
+    .hidden-mobile{
+        display:none;
+    }
+    .visible-mobile{
+        display:flex;
+    }
+    
+    .flex-container{
+        min-height:100vh;
+        height:auto;
+    }
+    .bg-home{
+        background: url('../img/mobiletop.jpg') no-repeat;
+        background-size:cover;
+        background-position:right;
+    }
+    
+    .mobile-home-container{
+        background: rgba(0,0,0,0.3);
+        /*position: absolute;*/
+        padding:2% 0%;
+        margin:auto;
+        width:90%;
+    }
+    .playstore-buttons{
+        position:relative;
+        bottom:auto;
+        right:auto;
+        justify-content: center;
+    }
+    .playstore-buttons a{
+        width:140px;
+    }
+    
+    .watch-trailer{
+        display:flex;
+        flex-direction: row;
+        bottom:0px;
+        background:rgba(0,0,0,0.4);
+        position:relative;
+        
+    }
+    .watch-trailer-right{        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left:32%;
+    }
+    
+    .camera-boy{
+        width:35%;
+        position:absolute;
+        bottom:0px;
+    }
+    
+    .camera-boy img{
+        vertical-align: bottom;
+    }
+    
+    .video-heading{
+        position:relative;
+        top:auto;
+        left:auto;
+        padding:5%;
+    }
+    
+    .video-heading h2{
+        font-size:15px;
+        color:#fff;
+    }
+    .video-heading h3{
+        font-size:30px;
+        line-height: 30px;
+        text-indent: inherit;
+    }
+    .play-video-button{
+        width:30%;
+        margin-top:10px;
+    }
+    .about-us-heading{
+        top:8%;
+        margin-left:8%;
+    }
+    .about-us-heading h2{
+        font-size:34px;
+    }
+    .about-us-heading h3 {
+        font-size: 80px;
+        font-weight: 600;
+        line-height: 65px;
+        text-indent: 80px;
+        text-transform: uppercase;
+    }
+    
+    .bg-aboutus{
+        background:url(../img/mobcode.jpg) no-repeat;
+        background-size:100% 100%;
+        
+    }
+    .table-mobile{
+        margin-top:10%;
+        z-index: 1;
+    }
+    .about-paragh{
+        width:90%;
+        font-size:12px;
+        margin-top: 0px;
+        text-align: justify;
+        margin: 10px auto;
+    }
+    
+    .bg-footer{
+        background:url('../img/lasssst2.jpg') no-repeat;
+        background-size: 100% 100%;
+        background-position: top;
+    }
+    
+    .contact-heading{
+        text-align:right;
+        margin-left:0;
+        position:absolute;
+        top:10%;
+        left:5%;
+        z-index: 1;
+    }
+    
+    .contact-heading h2{
+        font-size:40px;
+    }
+    
+    .contact-heading h3{
+        font-size: 70px;
+        line-height: 70px;
+        text-indent: 0px;
+    }
+    
+    .footer-lady{
+        right: 0%;
+        width: 80%;
+        height:90%;
+      
+    }
+    .flex-form{
+        width:320px;
+        margin:auto;
+        margin-top:35%;
+        z-index: 99;
+    }
+    
+    .flex-form textarea{
+        height:100px;
+        font-size:12px; 
+        /*width:318px;*/
+    }
+    .sendbtn{
+        width:100%;
+        height:40px;
+        padding:0px 20px;
+    }
+    .sendbtn img{
+        height:40px;
+    }
+    
+    .sara-mobile{
+        display: flex;
+        flex-direction: row;
+        position:absolute;
+        bottom:40px;
+        z-index: 2;
+        left:0px;
+    }
+    
+    .sara-img{              
+        width:128px;
+        position:absolute;
+        top:-4px;
+       
+    }
+    
+    .social-mobile{
+        padding-top:40px;
+        padding-left:130px;
+    }
+    
+    .space-120{
+        width:100px;
+    }
+    
+    .txt-sara{
+        font-size:32px;
+        line-height:normal;
+    }
+    
+    .txt-follow{
+        font-size:16px;
+        line-height: 16px;
+        text-indent: 0px;
+    }
+    
+    .connect{
+        margin-top:0px;
+        margin-left:0px;
+    }
+    
+    .txt-click{
+        font-size:16px;
+        text-indent: 0px;
+    }
+    
+    .txt-connect{
+        font-size:18px;
+        text-indent: 0px;
+        margin:0px;
+        line-height:18px;
+    }
+    
+    .footer-bar{
+        font-size:11px;
+        height:25px;
+    }
+    .margin-bottom-mobile{
+        margin-bottom:30%;
+    }
+    
+    .mobile-menu-button{
+        z-index: 222;
+        display: block;
+        width: 30px;
+        top: 12px;
+        position: fixed;
+        left: 10px;
+    }
+    .mobile-menu-button .line1,.mobile-menu-button .line2,.mobile-menu-button .line3{
+        width: 100%;
+        background: #fff;
+        height: 4px;
+        margin: 4px auto;
+        border-radius: 2px;
+        transition: all linear .3s;
+    }
+    
+    .mobile-menu-button.active .line1{
+           -webkit-transform: translate(0px,12px) rotate(45deg);
+        transform: translate(0px,12px) rotate(45deg);
+    } 
+    
+    .mobile-menu-button.active .line2{
+        opacity:0;
+    }
+    .mobile-menu-button.active .line3{
+        -webkit-transform: translate(0px, -12px) rotate(-45deg);
+        transform: translate(0px, -4px) rotate(-45deg);
+    }
+    
+  
+    
+    .header-container{
+        justify-content: center;
+    }
+    
+    .nav-mobile{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 53px;
+        width: 100%;
+        background: rgba(0,0,0,0.7);
+        height: 0px;
+        overflow:hidden;
+        transition:all .2s ease-in-out;
+    }
+    
+    .nav-mobile.active{
+        height:46px;
+    }
+    .nav-item{
+        width:32%;
+    }
+    
+    .flex-form input{
+        height:40px;
+        font-size:12px;
+    }
+    
+    .vertical-text{
+        transform: rotate(90deg);
+        transform-origin: right top 0;
+        color: #e4dfdf;
+        font-size: 9px;        
+        font-family: Montserrat-Light !important;
+        position:absolute;
+        right:10px;
+        bottom:30px;
+        z-index: 2;
+        
+    }
+    
+    .adjust-home-content{
+        justify-content: space-between;
+        flex:1;
+        flex-direction:column;
+        
+    }
+    
+    .insta-icon{
+        width:40px;
+    }
+    
+    .message{
+        width:50vw;
+        left:20vw;
+    }
+    
+
+    
+}
+
+
+@media (width:375px){
+    .footer-lady{
+        width:auto;
+        height:90%;
+        
+    }
+    .contact-heading{
+        top:9%;
+    }
+    
+    .contact-heading h2{
+        font-size:30px;
+    }
+    
+    .contact-heading h3{
+        font-size: 55px;
+        line-height: 55px;
+        text-indent: 0px;
+    }
+    .flex-form{
+        margin-top:25%;
+    }
+    .flex-form input{
+        height:30px;
+    }
+    
+    .about-us-heading {
+        top: 5%;
+        margin-left: 6%;
+    }
+}
+
+
+/* Iphone 5/SE */
+@media (width:320px) and (height:568px){
+    .mobile-home-container{
+        width:80% !important;   
+        padding:5% 0% !important;
+    }
+    .camera-boy{
+        width:30% !important;
+    }
+    .watch-trailer-right{
+        padding-left:25% !important;
+    }
+    .play-video-button{
+        width:35% !important;
+    }
+    .video-heading{
+        padding:5% 0% !important;
+    }
+    .about-us-heading h2{
+        font-size:26px !important;
+    }
+    
+    .about-us-heading h3{
+        font-size:55px !important;
+        line-height: 45px !important;
+        text-indent: 60px !important;
+    }
+    .contact-heading h2{
+        font-size:30px !important;
+    }
+    .contact-heading h3{
+        font-size:50px !important;
+        line-height: 50px !important;
+    }
+    .flex-form input, .sendbtn, .sendbtn img{
+        height:25px !important;
+    }
+    .flex-form textarea{
+        height:70px !important;
+    }
+    .sara-img{
+        width:108px !important;
+        top:-15px !important;
+    }
+    .social-mobile{
+        padding-left: 110px !important;
+    }
+    .footer-bar{
+        height:auto !important;
+        padding:5px !important;
+        width:auto !important;
+        font-size:11px !important;
+    }
+}
+
+/* Samsung Galaxy S5 ----------- 
+@media only screen and (max-width: 360px) and (max-height: 640px){
+   
+    .mobile-home-container{
+        width: 80% !important;
+        margin:auto;
+        padding:5%;
+    }
+    .camera-boy {
+        width: 28% !important;        
+    }
+    .watch-trailer-right{
+        padding-left:24% !important;
+    }
+   
+    
+    .social-mobile {
+        padding-top: 0px;
+        padding-left: 120px;
+    }
+    .flex-form textarea{
+        height:60px;
+    }
+    .flex-form input{
+        height:30px;
+    }
+    .sendbtn{
+        height:30p;
+    }
+    .sendbtn img{
+        height:30px;
+    }
+    
+    .sara-img {
+        width: 120px;
+        position: absolute;
+        top: -32px;
+    }
+    .margin-bottom-mobile{
+        margin-bottom:30%;
+    }
+    .contact-heading h3{
+        font-size:62px;
+        line-height: 62px;
+    }
+}
+*/
+
+/* for 360 x 640 phones */
+@media only screen and (min-height: 454px) and (max-height: 640px){
+   
+    .mobile-home-container{
+        width: 80%;
+        margin:auto;
+        padding:5%;
+    }
+    .camera-boy {
+        width: 28%;        
+    }
+    .watch-trailer-right{
+        padding-left:24%;
+    }
+   
+    
+    .social-mobile {
+        padding-top: 0px;
+        padding-left: 120px;
+    }
+    .flex-form textarea{
+        height:60px;
+    }
+    .flex-form input{
+        height:30px;
+    }
+    .sendbtn{
+        height:30px;
+    }
+    .sendbtn img{
+        height:30px;
+    }
+    
+    .sara-img {
+        width: 120px;
+        position: absolute;
+        top: -32px;
+    }
+    .margin-bottom-mobile{
+        margin-bottom:30%;
+    }
+    .contact-heading h3{
+        font-size:62px;
+        line-height: 62px;
+    }
+}
+
+@media only screen and (width:360px) and (height:567px){
+    .mobile-home-container{
+        width:70%;
+    }
+    .about-us-heading h3{
+        text-indent: 54px !important;
+    }
+    .sara-img{
+        width:100px;
+        top:0px;
+    }
+    .social-mobile{
+        padding-left:100px;
+    }
+    .footer-bar{
+        height:30;
+       
+    }
+}
+
+
+/* Android Fix */
+
+@media (height:512px){
+    .sara-mobile{ bottom: 18px; }
+    .sara-img { width: 85px; top: 0px;}    
+    .footer-bar{height:20px;}
+    /*.flex-form textarea{ width:318px;  }*/
+    
+}
+
+
+/* Iphone 6/7/8 */
+@media(width:375px) and (height:553px){
+    .mobile-home-container{
+        width:65% !important;
+        padding: 5% 10%;
+    }
+    .footer-lady {
+        width: 267px;
+        height: 553px;
+        bottom: -2%;
+    }
+    .social-mobile{
+        padding-left:110px;
+    }
+    .sara-img{
+        width:120px;
+        top:-20px;
+    }
+    
+    .flex-form input{
+        padding:0px;
+    }
+    
+    .flex-form textarea{
+        height:60px;       
+        
+    
+    }
+    
+    .sendbtn, .sendbtn img{
+        height:30px;
+    }
+    
+    .contact-heading{
+        top:14%;
+    }
+    
+    .margin-bottom-mobile{
+        margin-bottom:20%;
+    }
+    .watch-trailer-right{
+        padding-left:100px;
+    }
+}
+
+@media(width:375px) and (height:667px){
+    .mobile-home-container{
+        width:65% !important;
+        padding: 5% 10%;
+    }
+    
+    .social-mobile{
+        padding-left:110px;
+    }
+    .sara-img {
+        width: 110px;
+        top: 25px !important;
+    }
+
+    .flex-form textarea{
+        height:60px;               
+        /*width:303px;*/
+    }
+    
+    .sendbtn, .sendbtn img{
+        height:30px;
+    }
+    
+    .watch-trailer-right{
+        padding-left:30% !important;
+    }
+    .flex-form input{
+        padding:0px;
+    }
+    
+    
+}
+
+
+/* Iphone X */
+@media (width:375px) and (height:812px){
+    .flex-form{
+        margin-top:42%;
+    }
+    .flex-form input{
+        height:40px;
+    }
+    .flex-form textarea{
+        height:150px;
+    }
+}
+
+
+/* iphone Chrome hack */
+@media (width:375px) and (height:635px){
+    .flex-form{
+        margin-top:42%;
+    }
+    .flex-form input{
+        height:40px;
+        padding:0px;
+    }
+    .flex-form textarea{
+        height:90px;
+        padding:0px;
+        padding-top:10px;        
+        /*width:306px;*/
+    }
+    .contact-heading h3{
+        font-size:52px;
+        line-height: 52px;
+    }
+    .watch-trailer-right{
+        padding-left:100px;
+    }
+    .sara-img{
+        top:0px;      /* top: -25px; */
+    }
+    .sara-mobile{ bottom:38px;}
+    
+    
+}
+
+/* iphone 6, 5, se chrome hack */
+@media (height:591px){    
+    .flex-form input{
+        height:40px;
+        padding:0px;
+    }
+    .flex-form textarea{
+        height:90px;
+        padding:0px;
+        padding-top:10px;        
+        /*width:306px;*/
+    }
+    .contact-heading h3{
+        font-size:52px;
+        line-height: 52px;
+    }
+    .watch-trailer-right{
+        padding-left:100px;
+    }
+    .sara-img{
+        top:0px;      /* top: -25px; */
+    }
+    .sara-mobile{ bottom:38px;}
+    
+    
+}
+
+
+@media (width:412px) and (max-height:732px){
+    .mobile-home-container{
+        width:80%;
+    }
+    
+     .sara-img{
+        width:110px !important;
+        top:24px !important;
+    }
+}
+
+@media (width:600px){
+    .about-us-heading {
+        top: 5%;
+    }
+    .about-us-heading h2 {
+        font-size: 70px;
+    }
+    .about-us-heading h3{
+        font-size:130px;
+        line-height: 90px;
+        text-indent:125px;
+    }
+    .footer-lady{
+        height:90%;
+       
+    }
+    .contact-heading{
+        top:8%;
+    }
+    
+    .contact-heading h2{
+        font-size:50px;
+    }
+    
+    .contact-heading h3{
+        font-size: 90px;
+        line-height:90px;
+    }
+    
+    .video-heading{
+        padding:8%;
+    }
+    .camera-boy{
+        width:28%;
+    }
+    .playstore-buttons a{
+        width:40%;
+    }
+    .video-heading h2{
+        font-size:20px;
+    }
+    .video-heading h3{
+        font-size:40px;
+        line-height: 40px;
+    }
+    
+    .flex-form{
+        width:520px;
+    }
+    
+    .flex-form input{
+        height:44px;
+    }   
+    
+    .flex-form textarea{
+        height:150px;
+        /*width:518px;*/
+    }
+    .sendbtn{
+        height:44px;
+    }
+    .sendbtn img{
+        height:44px;
+    }
+    .sara-mobile{
+        bottom:46px;
+    }
+    .sara-img{
+        width:170px;
+    }
+    .social-mobile{
+        padding-left: 154px;
+    }
+    .txt-follow{
+        font-size:26px;
+        line-height:26px;
+    }
+    .txt-sara{
+        font-size:50px;
+    }
+    .txt-click{
+        font-size:26px;
+    }
+    .txt-connect{
+        font-size:28px;
+        line-height: 28px;
+    }
+    .insta-icon{
+        width:60px;
+    }
+}
+@media (width:720px){
+    .video-heading{
+        padding:5% 0;
+    }
+    .video-heading h2{
+        font-size:25px;
+    }
+    .video-heading h3{
+        font-size:50px;
+        line-height: 50px;
+    }
+    .watch-trailer-right{
+        padding-left:36%;
+    }
+    
+    .about-us-heading {
+        top: 6%;
+        margin-left:7%;
+    }
+    .about-us-heading h2 {
+        font-size: 70px;
+    }
+    .about-us-heading h3{
+        font-size:150px;
+        line-height: 100px;
+        text-indent:155px;
+    }
+    
+    .sara-img{
+        width: 220px;
+        position: absolute;
+        bottom: 0px;
+        height: 260px;
+    }
+    
+    .social-mobile {
+        padding-top: 40px;
+        padding-left: 220px;
+    }
+    
+    .txt-follow {
+        font-size: 30px;
+        line-height: 30px;
+        text-indent: 0px;
+    }
+    .txt-sara {
+        font-size: 70px;
+        line-height: normal;
+    }
+    .flex-form {
+        width: 90%;
+        margin: auto;
+        margin-top: 28%;
+    }
+    .flex-form textarea {
+        height: 200px;
+        font-size: 12px;
+    }
+    
+    .flex-form input {
+        height: 50px;
+        font-size: 12px;
+    }
+    
+    .sendbtn {
+        width: 100%;
+        height: 50px;
+        padding: 0px 20px;
+    }
+    .contact-heading{
+        top:6%;
+    }
+    .contact-heading h3{
+        font-size: 120px;
+        line-height: 120px;
+    }
+    .contact-heading h2 {
+        font-size: 60px;
+    }
+    .insta-icon {
+        width: 74px;
+    }
+    .txt-click {
+        font-size: 26px;
+        text-indent: 0px;
+    }
+    .txt-connect {
+        font-size: 38px;
+        text-indent: 10px;
+        margin: 0px;
+        line-height: 38px;
+    }
+    
+    .footer-lady{
+        height:95%;
+        width:auto;
+    }
+    .flex-form textarea{
+        height:180px;
+    }
+}
+
+@media (min-height:812px) and (max-height:959px){
+    .mobile-home-container {
+        width: 90%;
+        padding: 10% 0px;
+    }
+}
+
+
+/* Ipad */
+@media (width: 768px) and (height:1024px){
+    .contact-heading h2{ font-size: 70px;}
+    .contact-heading h3{ font-size: 120px; line-height: 120px; }
+    .flex-form{ width: 650px; }
+    /*.flex-form textarea { width: 647px;}*/
+    .sara-img{ width: auto; }
+    .social-mobile{ padding-left: 230px; }
+    .txt-follow{ font-size: 42px; line-height: 42px;}
+    .txt-sara{ font-size: 90px; line-height: 90px;}
+    .insta-icon{ width: auto;}
+    .txt-click{ font-size: 30px;}
+    .txt-connect{ font-size: 45px; line-height: 45px;}
+    .footer-bar{height:40px; font-size:16px;}
+    .about-paragh{ font-size:18px;}
+}
+
+/* Ipad Pro */
+
+@media (width:1024px) and (height:1366px){
+    .hidden-mobile{
+        display:none;
+    }
+    .visible-mobile{
+        display:flex;
+    }
+    
+    .flex-container{
+        min-height:100vh;
+        height:auto;
+    }
+    .bg-home{
+        background: url('../img/mobiletop.jpg') no-repeat;
+        background-size:cover;
+        background-position:right;
+    }
+    
+    .mobile-home-container{
+        background: rgba(0,0,0,0.3);
+        /*position: absolute;*/
+        padding:2% 0%;
+        margin:auto;
+        width:80%;
+    }
+    .playstore-buttons{
+        position:relative;
+        bottom:auto;
+        right:auto;
+        justify-content: center;
+    }
+    
+    
+    .watch-trailer{
+        display:flex;
+        flex-direction: row;
+        bottom:0px;
+        background:rgba(0,0,0,0.4);
+        position:relative;
+        
+    }
+    .watch-trailer-right{        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left:25%;
+    }
+    
+    .camera-boy{
+        width:25%;
+        position:absolute;
+        bottom:0px;
+    }
+    
+    .camera-boy img{
+        vertical-align: bottom;
+    }
+    
+    .video-heading{
+        position:relative;
+        top:auto;
+        left:auto;
+        padding:5%;
+    }
+    
+    .video-heading h2{
+        font-size:20px;
+        color:#fff;
+    }
+    .video-heading h3{
+        font-size:50px;
+        line-height: 50px;
+        text-indent: inherit;
+    }
+    .play-video-button{
+        width:auto;
+        margin-top:10px;
+    }
+    .about-us-heading{
+        top:8%;
+        margin-left:8%;
+    }
+    .about-us-heading h2{
+        font-size:80px;
+    }
+    .about-us-heading h3 {
+        font-size: 190px;
+        font-weight: 600;
+        line-height: 170px;
+        text-indent: 190px;
+        text-transform: uppercase;
+    }
+    
+    .bg-aboutus{
+        background:url(../img/mobcode.jpg) no-repeat;
+        background-size:100% 100%;
+        
+    }
+    .table-mobile{
+        margin-top:10%;
+        z-index: 1;
+    }
+    .about-paragh{
+        width:90%;
+        font-size:19px;
+        margin-top: 0px;
+        text-align: justify;
+        margin: 10px auto;
+    }
+    
+    .bg-footer{
+        background:url('../img/lasssst2.jpg') no-repeat;
+        background-size: 100% 100%;
+        background-position: top;
+    }
+    
+    .contact-heading{
+        text-align:right;
+        margin-left:0;
+        position:absolute;
+        top:10%;
+        left:5%;
+    }
+    
+        
+    .footer-lady{
+        right: 0%;
+        width: 76%;
+        height:90%;
+    }
+    .flex-form{
+        width:800px;
+        margin:auto;
+        margin-top:35%;
+        z-index: 99;
+    }
+    
+
+    /*
+    .flex-form textarea{        
+        width:798px;
+    }
+    */
+   
+    
+    .sara-mobile{
+        display: flex;
+        flex-direction: row;
+        position:absolute;
+        bottom:40px;
+        z-index: 2;
+        left:0px;
+    }
+    
+    .sara-img{              
+        width:auto;
+        position:absolute;
+        top:78px;
+       
+    }
+    
+    .social-mobile{
+        padding-top:40px;
+        padding-left:267px;
+    }
+    
+    .space-120{
+        width:100px;
+    }
+    
+    .txt-sara{
+        font-size:110px;
+        line-height:normal;
+    }
+      
+    
+    .connect{
+        margin-top:0px;
+        margin-left:0px;
+    }
+    
+    .txt-click{        
+        text-indent: 0px;
+    }
+    
+    .txt-connect{
+        font-size:38px;
+        text-indent: 0px;
+        margin:0px;
+        line-height:38px;
+    }
+    
+    .footer-bar{
+        font-size:16px;
+        height:40px;
+    }
+    .margin-bottom-mobile{
+        margin-bottom:30%;
+    }
+    
+    .mobile-menu-button{
+        z-index: 222;
+        display: block;
+        width: 30px;
+        top: 12px;
+        position: fixed;
+        left: 10px;
+    }
+    .mobile-menu-button .line1,.mobile-menu-button .line2,.mobile-menu-button .line3{
+        width: 100%;
+        background: #fff;
+        height: 4px;
+        margin: 4px auto;
+        border-radius: 2px;
+        transition: all linear .3s;
+    }
+    
+    .mobile-menu-button.active .line1{
+           -webkit-transform: translate(0px,12px) rotate(45deg);
+        transform: translate(0px,12px) rotate(45deg);
+    } 
+    
+    .mobile-menu-button.active .line2{
+        opacity:0;
+    }
+    .mobile-menu-button.active .line3{
+        -webkit-transform: translate(0px, -12px) rotate(-45deg);
+        transform: translate(0px, -4px) rotate(-45deg);
+    }
+    
+  
+    
+    .header-container{
+        justify-content: center;
+    }
+    
+    .nav-mobile{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 53px;
+        width: 100%;
+        background: rgba(0,0,0,0.7);
+        height: 0px;
+        overflow:hidden;
+        transition:all .2s ease-in-out;
+    }
+    
+    .nav-mobile.active{
+        height:46px;
+    }
+    .nav-item{
+        width:32%;
+    }
+    
+   
+    
+    .vertical-text{
+        transform: rotate(90deg);
+        transform-origin: right top 0;
+        color: #e4dfdf;
+        font-size: 9px;        
+        font-family: Montserrat-Light !important;
+        position:absolute;
+        right:10px;
+        bottom:30px;
+        z-index: 2;
+        
+    }
+    
+    .adjust-home-content{
+        justify-content: space-between;
+        flex:1;
+        flex-direction:column;
+        
+    }
+    
+    .insta-icon{
+        width:auto;
+    }
+    
+    .message{
+        width:50vw;
+        left:20vw;
+    }
+    
+}
+
+/* Nexus 10 */
+@media (width:800px) and (height:1280px){
+    .hidden-mobile{
+        display:none;
+    }
+    .visible-mobile{
+        display:flex;
+    }
+    
+    .flex-container{
+        min-height:100vh;
+        height:auto;
+    }
+    .bg-home{
+        background: url('../img/mobiletop.jpg') no-repeat;
+        background-size:cover;
+        background-position:right;
+    }
+    
+    .mobile-home-container{
+        background: rgba(0,0,0,0.3);
+        /*position: absolute;*/
+        padding:2% 0%;
+        margin:auto;
+        width:80%;
+    }
+    .playstore-buttons{
+        position:relative;
+        bottom:auto;
+        right:auto;
+        justify-content: center;
+    }
+    
+    .playstore-buttons a{
+        width:260px;
+    }
+    
+    .watch-trailer{
+        display:flex;
+        flex-direction: row;
+        bottom:0px;
+        background:rgba(0,0,0,0.4);
+        position:relative;
+        
+    }
+    .watch-trailer-right{        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left:25%;
+    }
+    
+    .camera-boy{
+        width:25%;
+        position:absolute;
+        bottom:0px;
+    }
+    
+    .camera-boy img{
+        vertical-align: bottom;
+    }
+    
+    .video-heading{
+        position:relative;
+        top:auto;
+        left:auto;
+        padding:5%;
+    }
+    
+    .video-heading h2{
+        font-size:20px;
+        color:#fff;
+    }
+    .video-heading h3{
+        font-size:50px;
+        line-height: 50px;
+        text-indent: inherit;
+    }
+    .play-video-button{
+        width:auto;
+        margin-top:10px;
+    }
+    
+    .about-us-heading{
+        top:8%;
+        margin-left:8%;
+    }
+    .about-us-heading h2{
+        font-size:80px;
+    }
+    .about-us-heading h3 {
+        font-size: 190px;
+        font-weight: 600;
+        line-height: 170px;
+        text-indent: 190px;
+        text-transform: uppercase;
+    }
+    
+    .bg-aboutus{
+        background:url(../img/mobcode.jpg) no-repeat;
+        background-size:100% 100%;
+        
+    }
+    .table-mobile{
+        margin-top:10%;
+        z-index: 1;
+    }
+    .about-paragh{
+        width:90%;
+        font-size:19px;
+        margin-top: 0px;
+        text-align: justify;
+        margin: 10px auto;
+    }
+    
+    .bg-footer{
+        background:url('../img/lasssst2.jpg') no-repeat;
+        background-size: 100% 100%;
+        background-position: top;
+    }
+    
+    .contact-heading{
+        text-align:right;
+        margin-left:0;
+        position:absolute;
+        top:10%;
+        left:5%;
+    }
+    
+        
+    .footer-lady{
+        right: 0%;
+        width: 76%;
+        height:90%;
+    }
+    .flex-form{
+        width:600px;
+        margin:auto;
+        margin-top:35%;
+        z-index: 99;
+    }
+    
+    
+    .flex-form input{
+        height:50px;
+    }
+    
+    .flex-form textarea{        
+        /*width:598px;*/
+        height:220px;
+    }
+   
+    .sendbtn{
+        width:auto;
+        height:auto;
+        padding: 5px 20px;
+    }
+    
+    .sara-mobile{
+        display: flex;
+        flex-direction: row;
+        position:absolute;
+        bottom:40px;
+        z-index: 2;
+        left:0px;
+    }
+    
+    .sara-img{              
+        width:auto;
+        position:absolute;
+        top:78px;
+       
+    }
+    
+    .social-mobile{
+        padding-top:40px;
+        padding-left:267px;
+    }
+    
+    .space-120{
+        width:100px;
+    }
+    
+    .txt-sara{
+        font-size:110px;
+        line-height:normal;
+    }
+      
+    
+    .connect{
+        margin-top:0px;
+        margin-left:0px;
+    }
+    
+    .txt-click{        
+        font-size: 30px;
+        text-indent: 0px;
+    }
+    
+    .txt-connect{
+        font-size:38px;
+        text-indent: 0px;
+        margin:0px;
+        line-height:38px;
+    }
+    .txt-follow {
+        font-size: 42px;
+        font-family: Montserrat-Light;
+        color: #FFF;
+        font-weight: 300;
+        margin: 0px;
+        line-height: 70px;
+        text-indent: 20px;
+        text-transform: capitalize;
+    }
+    
+    .footer-bar{
+        font-size:16px;
+        height:40px;
+    }
+    .margin-bottom-mobile{
+        margin-bottom:30%;
+    }
+    
+    .mobile-menu-button{
+        z-index: 222;
+        display: block;
+        width: 30px;
+        top: 12px;
+        position: fixed;
+        left: 10px;
+    }
+    .mobile-menu-button .line1,.mobile-menu-button .line2,.mobile-menu-button .line3{
+        width: 100%;
+        background: #fff;
+        height: 4px;
+        margin: 4px auto;
+        border-radius: 2px;
+        transition: all linear .3s;
+    }
+    
+    .mobile-menu-button.active .line1{
+           -webkit-transform: translate(0px,12px) rotate(45deg);
+        transform: translate(0px,12px) rotate(45deg);
+    } 
+    
+    .mobile-menu-button.active .line2{
+        opacity:0;
+    }
+    .mobile-menu-button.active .line3{
+        -webkit-transform: translate(0px, -12px) rotate(-45deg);
+        transform: translate(0px, -4px) rotate(-45deg);
+    }
+    
+  
+    
+    .header-container{
+        justify-content: center;
+    }
+    
+    .nav-mobile{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 53px;
+        width: 100%;
+        background: rgba(0,0,0,0.7);
+        height: 0px;
+        overflow:hidden;
+        transition:all .2s ease-in-out;
+    }
+    
+    .nav-mobile.active{
+        height:46px;
+    }
+    .nav-item{
+        width:32%;
+    }
+    
+   
+    
+    .vertical-text{
+        transform: rotate(90deg);
+        transform-origin: right top 0;
+        color: #e4dfdf;
+        font-size: 9px;        
+        font-family: Montserrat-Light !important;
+        position:absolute;
+        right:10px;
+        bottom:30px;
+        z-index: 2;
+        
+    }
+    
+    .adjust-home-content{
+        justify-content: space-between;
+        flex:1;
+        flex-direction:column;
+        
+    }
+    
+    .insta-icon{
+        width:auto;
+    }
+    
+    .message{
+        width:50vw;
+        left:20vw;
+    }
+    
+    .contact-heading h2{ font-size:60px;}
+    .contact-heading h3{ font-size:130px; line-height: 110px;}
+}
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+
+
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* width > 1280  < 1440 */
+@media(min-width:1280px) and (max-width:1440px){
+    
+    .video-heading h2{
+        font-size:40px;
+    }
+    
+    .video-heading h3{
+        font-size:90px;
+        line-height: 90px;
+        text-indent: 175px;
+    }
+    
+    .watch-button{
+        right:0px;
+    }
+    
+    .video-icon{
+        top:13%;
+    }
+    
+/*
+    .about-paragh{
+        width: calc(100vw - 30%);
+        font-size: 19px;                
+        padding-left: 10%;
+    }
+*/
+    
+    .saratxt{
+        top:100px;
+        left:-120px;
+    }
+    
+    
+    .txt-sara{
+        font-size:190px;
+        line-height: 190px;
+        
+    }
+    
+    .txt-instagram{
+        font-size:70px;
+        line-height: 10px;
+    }
+    
+    .contact-heading h2{
+        font-size:40px;
+    }
+    .contact-heading h3{
+        font-size:100px;
+        line-height: 90px;
+        text-indent: 100px;
+    }
+    
+    .flex-container-2{
+        height:75vh;
+    }
+    .videogirl, .videoboy{
+        height:75vh;
+    }
+    
+    .footer-lady {
+        width: 54%;
+        right: 0%;
+        bottom: 0px;
+    }
+}
+
+@media(height:1050px){
+    .flex-container-2{
+        height:70vh;
+    }
+    .videoboy, .videogirl{
+        height:70vh;
+    }
+    
+    .sara{
+        height:65vh;
+    }
+    
+    .saratxt{
+        top:140px;
+        left:-150px;
+    }
+}
+
+@media (width:320px){
+    .flex-form{
+        width:270px;
+    }
+    /*
+    .flex-form textarea{
+        width:267px;
+    }
+    */
+}
+
+/*
+@media(min-width:800px) and (max-width:1440px){
+ 
+    
+    .about-paragh{
+        width: 800px;
+        font-size: 16px;
+    }
+}*/
+
+
