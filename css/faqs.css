@@ -1,0 +1,26 @@
+.faqs{
+    background:#202020;
+}
+.bg-faq{
+    background:url('../img/faqbgtop.png') no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.padding-h-160{
+    padding:0px 160px;
+}
+.faq-heading{
+    color:#fad91f;
+    font-family: 'FuturaNext-DemiBold';
+    font-size:90px;
+    margin:0px;
+    text-transform: uppercase;
+}
+
+.faq-para-heading{
+    color:#fad91f;
+    font-family: 'Montserrat-Light';
+    font-size:25px;
+    margin:0px;
+    text-transform: uppercase;
+}
