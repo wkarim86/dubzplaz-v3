@@ -1,3 +1,7 @@
+.container{
+    width:1050px;
+    margin:0 auto;
+}
 .faqs{
     background:#202020;
 }
@@ -6,6 +10,16 @@
     background-size:cover;
     background-position:center;
 }
+.bg-faq-bottom{
+    background:url('../img/faqbgbottom.png') no-repeat;
+    background-size:cover;
+    background-position:bottom;
+}
+
+.faq-container{    
+    display: flex;    
+}
+
 .padding-h-160{
     padding:0px 160px;
 }
@@ -16,11 +30,50 @@
     margin:0px;
     text-transform: uppercase;
 }
+.faq-para-heading-light{
+    color:#fad91f;
+    font-family: 'Montserrat-UltraLight';
+    font-size:26px;
+    margin:0px;
+    text-transform: uppercase;
+}
 
 .faq-para-heading{
     color:#fad91f;
     font-family: 'Montserrat-Light';
     font-size:25px;
-    margin:0px;
+    margin:0px 0px 10px;
     text-transform: uppercase;
+}
+
+.faq-links{ margin:0px; padding:0px; list-style: none;}
+.faq-links li{
+    line-height: 20px;
+    margin-bottom:24px;
+}
+
+.faq-links a, article p{
+    color:#fff;
+    font-family: 'Montserrat-Light';
+    font-size:17px;
+}
+.faq-boy{
+    width:325px;
+    height:auto;
+}
+.box-294{
+    width:294px;
+    margin-right:25px;
+}
+
+.marginTop200{
+    margin-top:200px;
+}
+.marginTop100{
+    margin-top:100px;
+}
+
+article p{ line-height: 24px;}
+.footer-bar{
+    position:fixed !important;
 }
