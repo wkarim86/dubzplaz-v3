@@ -2,57 +2,66 @@
     width:1050px;
     margin:0 auto;
 }
-.faqs{
+.page{
     background:#202020;
 }
-.bg-faq{
+.bg-page{
     background:url('../img/faqbgtop.png') no-repeat;
     background-size:cover;
     background-position:center;
 }
-.bg-faq-bottom{
+.bg-page-bottom{
     background:url('../img/faqbgbottom.png') no-repeat;
     background-size:cover;
-    background-position:bottom;
+    background-position:top;
 }
 
-.faq-container{    
+.page-container{    
     display: flex;    
 }
 
 .padding-h-160{
     padding:0px 160px;
 }
-.faq-heading{
+.page-heading{
     color:#fad91f;
     font-family: 'FuturaNext-DemiBold';
     font-size:90px;
+    line-height: 90px;
     margin:0px;
     text-transform: uppercase;
 }
-.faq-para-heading-light{
+.page-para-heading-light{
     color:#fad91f;
     font-family: 'Montserrat-UltraLight';
     font-size:26px;
-    margin:0px;
+    margin:0px 0px 10px;
     text-transform: uppercase;
 }
 
-.faq-para-heading{
+
+.page-para-heading{
     color:#fad91f;
     font-family: 'Montserrat-Light';
     font-size:25px;
     margin:0px 0px 10px;
     text-transform: uppercase;
 }
+.page-para-heading-white{
+    color:#fff;
+    font-family: 'Montserrat-SemiBold';
+    font-size:21px;
+    margin:0px 0px 10px;
+    text-transform: uppercase;
+}
 
-.faq-links{ margin:0px; padding:0px; list-style: none;}
-.faq-links li{
+.page-links{ margin:0px; padding:0px; list-style: none;}
+.page-links li{
     line-height: 20px;
     margin-bottom:24px;
 }
 
-.faq-links a, article p{
+.page-links a, article p{
     color:#fff;
     font-family: 'Montserrat-Light';
     font-size:17px;
@@ -61,6 +70,16 @@
     width:325px;
     height:auto;
 }
+
+.condition-boy{
+    width:306px;
+    height:auto;
+}
+.privacy-girl{
+    width:316px;
+    height:auto;
+}
+
 .box-294{
     width:294px;
     margin-right:25px;
@@ -73,7 +92,23 @@
     margin-top:100px;
 }
 
-article p{ line-height: 24px;}
+article{  
+    margin-bottom:60px;
+    word-wrap:break-word;
+}
+article p{ 
+    line-height: 24px;
+}
+article strong {
+    font-family: 'Montserrat-SemiBold';    
+}
 .footer-bar{
     position:fixed !important;
+}
+
+.floatLeft{
+    float:left;
+}
+.floatRight{
+    float:right;
 }
