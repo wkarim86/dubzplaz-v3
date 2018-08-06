@@ -259,7 +259,7 @@ html, body{
     right: 11%;
 }
 .playstore-buttons a{
-   width:260px;
+   margin:0 15px;
 }
 
 .align-horizontal-center{ 
