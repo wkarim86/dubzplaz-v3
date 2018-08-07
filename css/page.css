@@ -1,9 +1,12 @@
+body{
+    background: #202020;
+}
 .container{
     width:1050px;
     margin:0 auto;
 }
 .page{
-    background:#202020;
+    height:100vh;
 }
 .bg-page{
     background:url('../img/faqbgtop.png') no-repeat;
@@ -30,6 +33,7 @@
     line-height: 90px;
     margin:0px;
     text-transform: uppercase;
+    letter-spacing: 3px;
 }
 .page-para-heading-light{
     color:#fad91f;
@@ -61,11 +65,23 @@
     margin-bottom:24px;
 }
 
-.page-links a, article p{
+.page-links a, article p, article, article a{
     color:#fff;
     font-family: 'Montserrat-Light';
     font-size:17px;
 }
+
+article ul, article ol{
+    color:#fff;
+}
+
+article ol.l-roman{
+    list-style-type: lower-roman;
+}
+article ol.l-alpha{
+    list-style-type: lower-alpha;
+}
+
 .faq-boy{
     width:325px;
     height:auto;
@@ -112,3 +128,90 @@ article strong {
 .floatRight{
     float:right;
 }
+
+.bottomFromTop{
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    text-align: center;
+    align-items: center;
+    position:fixed;
+    bottom:20%;
+    right:10px;
+    background:rgba(18,18,18,0.8);
+    display:none;
+}
+
+.bottomFromTop:hover{
+     background:rgba(18,18,18,1);
+}
+
+.bottomFromTop img{
+    margin-top:14px;
+}
+
+/* Page Responsive */
+@media (min-width:320px) and (max-width:1024px){
+    .container{
+        width:100%;
+    }
+    .header-container{
+        padding:0px;
+        justify-content: center;
+    }
+    .page-container{
+        padding:0 20px;
+    }
+    .column{
+        flex-direction:column;
+    }
+    .box-294{
+        width:200px;
+    }
+/*
+    .marginTop200{
+        margin-top:150px;
+    }
+*/
+  
+    .page-heading {
+        font-size: 31px;
+        line-height: 31px;
+        position: absolute;
+        top: 130px;
+        z-index: 2;
+        width: 254px;
+    }
+    .page-para-heading, .page-para-heading-light, .page-para-heading-white{
+        font-size:15px;
+    }
+    .page-links a, article p, article ul li, article ol li, article a{
+        font-size:12px;
+    }
+    .page-links li{
+        margin-bottom:10px;
+        line-height:auto;
+    }
+    .faq-boy{
+        width:162px;
+    }
+    .slogan{
+        display:none;
+    }
+    .nav, .mobile-menu-button{
+        display:none;
+    }
+    .footer-bar{
+        font-size:12px;
+    }
+    .privacy-girl{
+        width:158px;
+    }
+    .condition-boy{
+        width:153px;
+    }
+    .relative{
+        z-index: 3;
+    }
+}
+

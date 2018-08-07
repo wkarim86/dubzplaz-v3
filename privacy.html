@@ -30,13 +30,13 @@
                 <div class="line3"></div>
             </div>
             <div class="logo">
-                    <a href="javascript:void(0)"><img src="img/logo.png" /></a>
-                - StyleCity Dubai Season 1 Support - Terms &amp; Conditions
+                    <a href="index.html"><img src="img/logo.png" /></a>
+               <span class="slogan">- StyleCity Dubai Season 1 Support - Terms &amp; Conditions</span>
             </div>
             <div class="nav hidden-mobile">
                 <div class="nav-item"></div>
                 <div class="nav-item"></div>
-                <div class="nav-item red"><a href="#">Back</a></div>
+                <div class="nav-item red"><a href="javascript:history.go(-1)">Back</a></div>
             </div>
             
         </div>
@@ -48,10 +48,11 @@
     <section>    
         <div class="page-container bg-page">
             <div class="container">
-            <div class="marginTop100 floatRight"><img src="img/Privacygirl.png" class="privacy-boy" ></div> 
+            <div class="marginTop100 floatRight"><img src="img/Privacygirl.png" class="privacy-girl" ></div> 
+                 
                             <article class="marginTop200">
-                                
-                                <p><span class="page-heading marginTop200">Privacy</span></p>
+                                <span class="page-heading">Privacy</span>
+<!--                                <p><span class="page-heading marginTop200">Privacy</span></p>-->
                                 <p>What’s Changed: Please note the changes in the definition of “Glu,” changes in “Sharing Your Information,” “Analytics, Advertising and Other Services Provided by Other Companies” and in “Your Choices” below.
                                 </p>    
                                 <p>This Privacy Policy explains how information about you is collected, used and disclosed by Glu Mobile Inc. and its subsidiaries (“Glu,” “we” or “us”). This Privacy Policy applies to information we collect when you use our websites, mobile applications and other online products and services (collectively, the “Services”). This Privacy Policy does not apply to the information collected from: (1) web-based applications that are based on our mobile applications but are published by third parties, (2) mobile applications that we distribute on behalf of third parties and which are hosted and operated by such parties, or (3) the on-line submission of resumes and employment applications in connection with the Jobs section of our website.</p>
@@ -75,23 +76,26 @@
     </section>
 <!-- end Top Section -->
    
-      <div class="footer-bar">
+     <div class="footer-bar">
             <div class="footer-bar-content ">
-                <span class="hidden-mobile">Copyright &copy; 2018 DubzPlay.</span>
+                <span>Copyright &copy; 2018 DubzPlay.</span>
             <ul>
 
-                <li><a href="#">info@dubzplay.com</a></li>
-                <li class="sep">|</li>
-                <li><a href="#">FAQs</a></li>
+                <li>StyleCity: </li>                
+                <li><a href="faqs.html">FAQs</a></li>
                 <li class="sep">-</li>
-                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="term_conditions.html">Terms &amp; Conditions</a></li>
                 <li class="sep">-</li>
-                <li><a href="#">Privacy</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
             </ul>
             </div>
             
             
         </div>
+    
+    <a class="bottomFromTop" href="#">
+        <img src="img/toparrow.png" />
+    </a>
     
 
 </div>    
@@ -101,26 +105,8 @@
 
 <!-- stats.js -->
 <script src="js/lib/stats.js"></script>
-<script>
-// Bind click handler to menu items
-// so we can get a fancy scroll animation
-    $(document).ready(function(){
-       
-        $('.mobile-menu-button').click(function(){
-            if($(this).hasClass('active')){
-                $(this).removeClass('active');
-                $('.nav-mobile').removeClass('active');
-            }else{
-                $(this).addClass('active');
-                $('.nav-mobile').addClass('active');
-            }
-        });
-     
-        
-    });
+<script src="js/footer.js"></script>
 
-   
-    </script>
     
 </body>
 </html>
