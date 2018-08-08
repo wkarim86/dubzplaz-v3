@@ -5,18 +5,25 @@ body{
     width:1050px;
     margin:0 auto;
 }
+.header-container{
+    flex-basis: 1050px;
+    margin:auto;
+}
+.logo{
+    width:90%;
+}
 .page{
     height:100vh;
 }
 .bg-page{
     background:url('../img/faqbgtop.png') no-repeat;
-    background-size:cover;
-    background-position:center;
+    background-size:100%;
+    background-position:top center;
 }
 .bg-page-bottom{
     background:url('../img/faqbgbottom.png') no-repeat;
-    background-size:cover;
-    background-position:top;
+    background-size:100%;
+    background-position:bottom center;
 }
 
 .page-container{    
@@ -150,8 +157,25 @@ article strong {
     margin-top:14px;
 }
 
+.nav{
+    width:auto;
+}
+
+.nav-item.red{
+    width:130px;
+}
+.nav-item{
+    flex:auto;    
+}
+
 /* Page Responsive */
 @media (min-width:320px) and (max-width:1024px){
+    .logo{
+        width:auto;        
+    }
+    .logo img{
+        height:44px;
+    }
     .container{
         width:100%;
     }
