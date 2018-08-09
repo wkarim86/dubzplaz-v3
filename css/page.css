@@ -15,19 +15,23 @@ body{
 .page{
     height:100vh;
 }
-.bg-page{
-    background:url('../img/faqbgtop.png') no-repeat;
+.dot-pattern-top{
+    background:url('../img/page_dots_top.png') no-repeat;
+    background-position: top right;
     background-size:100%;
-    background-position:top center;
+    
 }
-.bg-page-bottom{
-    background:url('../img/faqbgbottom.png') no-repeat;
+.dot-pattern-bottom{
+    background:url('../img/page_dots_bottom.png') no-repeat;
+    background-position: bottom right;
     background-size:100%;
-    background-position:bottom center;
+    
 }
 
 .page-container{    
-    display: flex;    
+    display: flex;  
+    position:relative;
+    z-index: 2;
 }
 
 .padding-h-160{
@@ -41,6 +45,8 @@ body{
     margin:0px;
     text-transform: uppercase;
     letter-spacing: 3px;
+    display:block;
+    margin-bottom:80px;
 }
 .page-para-heading-light{
     color:#fad91f;
@@ -48,6 +54,12 @@ body{
     font-size:26px;
     margin:0px 0px 10px;
     text-transform: uppercase;
+}
+.page-para-heading-two{
+    color:#fad91f;
+    font-family: 'Montserrat-UltraLight';
+    font-size:26px;
+    margin:0px 0px 10px;    
 }
 
 
@@ -60,10 +72,11 @@ body{
 }
 .page-para-heading-white{
     color:#fff;
-    font-family: 'Montserrat-SemiBold';
+    font-family: 'Montserrat-Regular';
     font-size:21px;
     margin:0px 0px 10px;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .page-links{ margin:0px; padding:0px; list-style: none;}
@@ -80,6 +93,9 @@ body{
 
 article ul, article ol{
     color:#fff;
+}
+article ul li, article ol li{
+    line-height: 26px;
 }
 
 article ol.l-roman{
@@ -120,7 +136,8 @@ article{
     word-wrap:break-word;
 }
 article p{ 
-    line-height: 24px;
+    line-height: 26px;
+    margin-bottom:60px;
 }
 article strong {
     font-family: 'Montserrat-SemiBold';    
@@ -147,6 +164,7 @@ article strong {
     right:10px;
     background:rgba(18,18,18,0.8);
     display:none;
+    z-index: 999;
 }
 
 .bottomFromTop:hover{
@@ -167,6 +185,8 @@ article strong {
 .nav-item{
     flex:auto;    
 }
+
+
 
 /* Page Responsive */
 @media (min-width:320px) and (max-width:1024px){
@@ -237,5 +257,28 @@ article strong {
     .relative{
         z-index: 3;
     }
+    
+    .hidden-mobile{
+        display:none;
+    }
+    .dot-pattern-top{
+        background:url('../img/page_dots_top_mobile.png') no-repeat;   
+        background-position: top right;
+        background-size:100%;
+
+    }
+    .dot-pattern-bottom{
+        background:url('../img/page_dots_bottom_mobile.png') no-repeat;       
+        background-position: bottom right;
+        background-size:100%;
+    }
+    
+    .visible-mobile{
+        display:flex;
+    }
+    .footer-bar-content{
+        justify-content: space-between;
+    }
+
 }
 
