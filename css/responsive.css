@@ -524,9 +524,8 @@
     }
 }
 
-@media(width:360px) and (height:640px){
-     .mobile-home-container{
-       
+@media(width:360px){
+     .mobile-home-container{       
         padding:0;
     }
 }
