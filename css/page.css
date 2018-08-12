@@ -150,7 +150,7 @@ article strong {
     font-family: 'Montserrat-SemiBold';    
 }
 .footer-bar{
-    position:fixed !important;
+    position:relative !important;
 }
 
 .floatLeft{
@@ -224,12 +224,23 @@ article strong {
         margin-top:150px;
     }
 */
+    
+    .marginTop100{
+        margin-top:60px;
+    }
+    
+    .marginTop200{
+        margin-top: 160px;
+    }
   
+    article p{
+        line-height: normal;
+    }
     .page-heading {
         font-size: 31px;
         line-height: 31px;
         position: absolute;
-        top: 130px;
+        top: 80px;
         z-index: 2;
         width: 254px;
     }
@@ -242,6 +253,9 @@ article strong {
     .page-links li{
         margin-bottom:10px;
         line-height:auto;
+    }
+    article ul li, article ol li{
+        line-height: normal;
     }
     .faq-boy{
         width:162px;
@@ -289,3 +303,23 @@ article strong {
 
 }
 
+@media (min-width:768px) and (max-width:1024px){
+    .faq-boy {
+        width: 325px;
+        height: auto;
+    }
+    .box-294{
+        width: 294px;
+    }
+    .column{
+        flex-direction: row;
+    }
+    .page-heading{
+        font-size: 90px;
+        line-height: 90px;
+        position:unset;
+        margin-bottom:40px;
+        width:auto;
+        
+    }
+}
