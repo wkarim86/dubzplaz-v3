@@ -920,3 +920,7 @@ html, body{
         right: 0%;
         bottom: 0px;
     }
+
+.mobile-menu-button{
+    display:none;
+}
